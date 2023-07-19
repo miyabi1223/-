@@ -1,0 +1,90 @@
+@charset "UTF-8";
+html{
+    font-size: 100%;
+}
+body{
+    font-family: "Yu Gothic Medium","游ゴシック Medium", YuGothic,"游ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
+    line-height: 1.7;
+    color:#432;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+@media (max-width: 600px){
+    h1{
+        color: #0bd;
+    }
+}
+
+/* HEADER
+-------------------------------------*/
+.header{
+    max-width: 100%;
+    display: inline-flex;
+}
+
+img.header-right_nav{
+    width: 100px;
+    object-fit: cover;
+    float: right;
+}
+
+img.header-logo{
+    width: 100px;
+    object-fit: cover;
+}
+
+.bg{
+    background-color: #89AADB;
+    width: 900px;
+    height: 100px;
+    left: 800px;
+    z-index: 0;
+} 
+
+/* SECTION-FIRSTVIEW
+-------------------------------------*/
+img.firstview-title{
+    width: 10px;
+}
+
+img.firstview__img{
+    width: 10px;
+}
+
+
+/* SECTION-SERVICE
+-------------------------------------*/
+.service-unit_first{
+    max-width: 100%;
+    display: inline-flex;
+}
+
+img.service-unit__first{
+    width: 10px;
+    object-fit: cover;
+}
+
+.service-unit__first-content{
+    width: 300px;
+    float: right;
+    padding-top: 200px;
+}
+
+.h3{
+    width: 300px;
+    float: right;
+}
+
+.bg{
+    background-color: #89AADB;
+    width: 900px;
+    height: 1000px;
+    left: 200px;
+    position: absolute;
+    z-index:-1;
+} 
